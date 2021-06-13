@@ -43,17 +43,22 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="">
-        <span>STEAMBHARAT</span>
+        <div style="position:relative">
+          <img src="assets/img/new_logo.png" alt="">
+          <div style="position: absolute;right: 51px;bottom: 6px;">
+            आरोग्यजीवनमूलमायुर्वेदः
+          </div>
+        </div>
+        
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Our Vision</a></li>
-          <li><a class="nav-link scrollto" href="#values">Our Values</a></li>
-          <li><a class="nav-link scrollto" href="#certification">Certification</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li style="display:none"><a class="nav-link scrollto" href="#about">Our Vision</a></li>
+          <li style="display:none"><a class="nav-link scrollto" href="#values">Our Values</a></li>
+          <li style="display:none"><a class="nav-link scrollto" href="#certification">Certification</a></li>
+          <li style="display:none"><a class="nav-link scrollto" href="#team">Team</a></li>
           <li class="hidden" style="display:none;"><a href="blog.html">Blog</a></li>
           <li class="dropdown hidden" style="display:none;"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -87,6 +92,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <div style="display:none">
+            <div>S : Suchi OR Agni </div>
+            <div>T : Toy OR Jal </div>
+            <div>E : Earth OR Prithvi </div>
+            <div>A : Amber OR Aakash </div>
+            <div>M : Maurit OR Vayu </div>
+            
+          </div>
           <h1 data-aos="fade-up">The Ancient Vedic knowledge for today's modern lifestyle</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">Transform your life with a better living</h2>
           <div data-aos="fade-up" data-aos-delay="600">
@@ -105,7 +118,10 @@
     </div>
 
   </section><!-- End Hero -->
+  <div class="row col-lg-12" style="text-align: center;display: flex;justify-content: center;">
+    <img src="assets/img/MAINTENANCE.png" class="img-fluid col-lg-6" alt="">
 
+  </div>
   <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -139,7 +155,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Values Section ======= -->
-    <section id="values" class="values">
+    <section id="values" class="values" style="display: none;">
 
       <div class="container" data-aos="fade-up">
 
@@ -209,7 +225,7 @@
     </section><!-- End Values Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+    <section id="counts" class="counts" style="display: none;">
       <div class="container" data-aos="fade-up">
 
         <div class="row gy-4">
@@ -260,7 +276,7 @@
     </section><!-- End Counts Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="certification" class="features">
+    <section id="certification" class="features" style="display: none;">
 
       <div class="container" data-aos="fade-up">
 
@@ -344,7 +360,7 @@
             </ul><!-- End Tabs -->
 
             <!-- Tab Content -->
-            <div class="tab-content">
+            <div class="tab-content" style="display: none;">
 
               <div class="tab-pane fade show active" id="tab1">
                 <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
@@ -626,7 +642,7 @@
     </section><!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+    <section id="faq" class="faq" style="display: none;">
 
       <div class="container" data-aos="fade-up">
 
@@ -735,7 +751,7 @@
     </section><!-- End F.A.Q Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio" style="display: none;">
 
       <div class="container" data-aos="fade-up">
 
@@ -890,7 +906,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials" style="display: none;">
 
       <div class="container" data-aos="fade-up">
 
@@ -991,7 +1007,7 @@
     </section><!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <section id="team" class="team" style="display: none;">
 
       <div class="container" data-aos="fade-up">
 
@@ -1182,14 +1198,14 @@
                 <div class="info-box">
                   <i class="bi bi-telephone"></i>
                   <h3>Call Us</h3>
-                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                  <p>+91 XXXXXXXX</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>info@example.com<br>contact@example.com</p>
+                  <p>infosteambharat21@gmail.com</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -1243,11 +1259,11 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-
+  
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
-
-    <div class="footer-newsletter">
+    
+    <div class="footer-newsletter"  style="display: none;">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-12 text-center">
@@ -1273,14 +1289,14 @@
             </a>
             <p>The Ancient Vedic knowledge for today's modern lifestyle.</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+              <a href="#" class="twitter" style="display: none;"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/AaayurvedicMedicine" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram" style="display: none;"><i class="bi bi-instagram bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin" style="display: none;"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links">
+          <div class="col-lg-2 col-6 footer-links" style="display: none;">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
@@ -1291,7 +1307,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links">
+          <div class="col-lg-2 col-6 footer-links" style="display: none;">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -1308,8 +1324,8 @@
               Meerut <br>
               U.P PIN : 250001 <br>
               INDIA <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <div style="display:none"><strong>Phone:</strong> +91-XXXXXXXX<br></div>
+              <strong>Email:</strong> infosteambharat21@gmail.com<br>
             </p>
 
           </div>
